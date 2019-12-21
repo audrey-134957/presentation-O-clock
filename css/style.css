@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color:#E4F0EF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+}
+
+main{
+    flex: 1;
+}
+
+.header,
+.main,
+.footer{
+    max-width:70rem;
+    width:100%;
+    margin:0 auto;
+}
+
+.header{
+    background-color:#51BEA8;
+}
+
+.header__heading,
+.header__link,
+.footer__text
+{
+    color:#FFF;
+}
+
+.header__link,
+.section__mark,
+.footer__rights{
+    font-weight: 700;
+}
+
+
+.header__heading{
+    font-size: 55px;
+    font-weight: 100;
+}
+
+.header__bold-letter{
+    font-weight: 700;
+}
+
+.header__navigation{
+    background-color:#3E9586;
+    text-align: right;
+}
+
+.header__list-items{
+    display: inline;
+}
+
+.header__item{
+    display: inline-block;
+}
+
+.section{
+    background-color: #FFF;
+}
+
+.section__image{
+    border:solid 1px #000;
+    border-radius:10px;
+}
+
+.section__text--students-section,
+.section__text--teachers-section,
+.section__heading--is-h3{
+    font-style: italic;
+}
+.section__heading{
+    text-transform: uppercase;
+}
+
+.section__important-words--overlined{
+    text-decoration: overline;
+}
+
+.section__important-words--underlined{
+    border-bottom:solid 1px #000;
+}
+
+.section__link--is-students-section-link,
+.footer__link{
+    color:#493786;
+}
+
+.section__heading--is-h2{
+    color:#3E9586;
+}
+
+.section__blockquote{
+    background-color: #F1F1F1;
+    color:#51BEA8;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.section__text--is-citation{
+    font-size:30px;
+}
+
+.section__box{
+    text-align: left;
+}
+
+.footer{
+    background-color: #00C2A7;
+}
